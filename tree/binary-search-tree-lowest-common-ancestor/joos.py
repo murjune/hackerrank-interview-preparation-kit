@@ -4,6 +4,8 @@
 # 두 node 모두의 공통조상이어야 하니 root.info를 가지고 v1, v2모두에게 작거나 큰 값이어야 할 것이에요.
 # 그래서 아래와 같은 풀이로 만들 수가 있습니다.
 
+# time complexity O(logN) 최악일 때는 O(N)이겠지만
+
 
 def lca(root, v1, v2):
     if not root:
